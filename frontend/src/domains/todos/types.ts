@@ -1,11 +1,8 @@
 export interface Todo {
-    id: string;
+    id: number;
     title: string;
-    completed: boolean;
-    createdAt: Date;
-    updatedAt: Date;
 }
 
 export interface CreateTodoRequest {
-title: string;
+    title: string;
 }
